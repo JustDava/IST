@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" style="-fx-background-color: #afb0ac;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TabPane prefHeight="300.0" prefWidth="400.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="T1tab" text="Task1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="T1input_a" layoutX="63.0" layoutY="56.0" prefHeight="26.0" prefWidth="65.0" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="14.0" prefHeight="18.0" prefWidth="400.0" text="Введите три числа a, b и c">
+                           <font>
+                              <Font name="Romantic" size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="T1input_b" layoutX="192.0" layoutY="56.0" prefHeight="26.0" prefWidth="65.0" />
+                        <TextField fx:id="T1input_c" layoutX="321.0" layoutY="55.0" prefHeight="26.0" prefWidth="65.0" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="57.0" prefHeight="23.0" prefWidth="62.0" text="a =">
+                           <font>
+                              <Font name="Romantic" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="129.0" layoutY="58.0" prefHeight="23.0" prefWidth="62.0" text="b =">
+                           <font>
+                              <Font name="Romantic" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="258.0" layoutY="57.0" prefHeight="23.0" prefWidth="62.0" text="c =">
+                           <font>
+                              <Font name="Romantic" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="136.0" layoutY="153.0" prefHeight="23.0" prefWidth="110.0" text="Результат">
+                           <font>
+                              <Font name="Romantic" size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="T1output_a" layoutX="62.0" layoutY="197.0" prefHeight="26.0" prefWidth="65.0" />
+                        <TextField fx:id="T1output_b" layoutX="191.0" layoutY="197.0" prefHeight="26.0" prefWidth="65.0" />
+                        <TextField fx:id="T1output_c" layoutX="320.0" layoutY="196.0" prefHeight="26.0" prefWidth="65.0" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="198.0" prefHeight="23.0" prefWidth="62.0" text="a =">
+                           <font>
+                              <Font name="Romantic" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="128.0" layoutY="199.0" prefHeight="23.0" prefWidth="62.0" text="b =">
+                           <font>
+                              <Font name="Romantic" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="257.0" layoutY="198.0" prefHeight="23.0" prefWidth="62.0" text="c =">
+                           <font>
+                              <Font name="Romantic" size="18.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="T1button" layoutX="156.0" layoutY="108.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" text="Расчитать" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="T2tab" text="Task2">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="T2button" layoutX="156.0" layoutY="108.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" text="OK" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="49.0" prefHeight="23.0" prefWidth="308.0" text="Введите целое число от 1 до 7 :">
+                           <font>
+                              <Font name="Romantic" size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="T2input_day" layoutX="308.0" layoutY="47.0" prefHeight="26.0" prefWidth="62.0" />
+                        <Label fx:id="T2label_result" alignment="CENTER" contentDisplay="CENTER" layoutY="171.0" prefHeight="23.0" prefWidth="400.0" text="День недели: " textAlignment="CENTER" wrapText="true">
+                           <font>
+                              <Font name="Romantic" size="18.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab fx:id="T3tab" text="Task3">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="75.0" prefWidth="370.0" text="Результатами вычислений по формуле х2 +х+ 17 при 0&lt;х&lt; 15 являются простые числа" wrapText="true">
+                           <font>
+                              <Font name="Romantic" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="T3label_result_for" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="155.0" prefHeight="114.0" prefWidth="192.0" text="Результат" wrapText="true">
+                           <font>
+                              <Font name="Romantic" size="12.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="T3button" layoutX="155.0" layoutY="108.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" text="Проверить" />
+                        <Label fx:id="T3label_result_while" alignment="CENTER" contentDisplay="CENTER" layoutX="206.0" layoutY="155.0" prefHeight="114.0" prefWidth="192.0" text="Результат" wrapText="true">
+                           <font>
+                              <Font name="Romantic" size="12.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+            <Tab fx:id="T4tab" text="Task4">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="39.0" prefWidth="270.0" text="Введите размерность массива: " wrapText="true">
+                           <font>
+                              <Font name="Romantic" size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="T4input_Arrsz" layoutX="301.0" layoutY="20.0" prefHeight="26.0" prefWidth="60.0" />
+                        <Label fx:id="T4label_resArr" alignment="TOP_LEFT" layoutX="9.0" layoutY="146.0" prefHeight="70.0" prefWidth="382.0" text="Полученный массив:" wrapText="true">
+                           <font>
+                              <Font name="Romantic" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="53.0" prefHeight="39.0" prefWidth="270.0" text="Введите делимое:" wrapText="true">
+                           <font>
+                              <Font name="Romantic" size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="T4_input_Del" layoutX="301.0" layoutY="59.0" prefHeight="26.0" prefWidth="60.0" />
+                        <Label fx:id="T4label_result" alignment="TOP_LEFT" layoutX="8.0" layoutY="225.0" prefHeight="30.0" prefWidth="382.0" text="Результат:" wrapText="true">
+                           <font>
+                              <Font name="Romantic" size="16.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="T4button" layoutX="156.0" layoutY="101.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" text="Вычислить" />
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

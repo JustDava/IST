@@ -1,0 +1,77 @@
+ERROR 2021-03-29 21:21:19  APP:36 - java.util.InputMismatchException
+DEBUG 2021-03-29 21:21:21  APP:49 - Выбрано: 4
+INFO  2021-03-29 21:21:21  APP:95 - Утверждение верно!
+INFO  2021-03-29 21:21:21  APP:109 - Утверждение верно!
+ERROR 2021-03-29 21:22:15  APP:36 - java.util.InputMismatchException
+DEBUG 2021-03-29 21:22:21  APP:49 - Выбрано: 5
+INFO  2021-03-29 21:22:21  APP:95 - Утверждение верно!
+INFO  2021-03-29 21:22:21  APP:109 - Утверждение верно!
+ERROR 2021-03-29 21:22:36  APP:147 - java.util.InputMismatchException
+WARN  2021-04-11 22:57:16  APP:17 - false
+INFO  2021-04-11 22:57:27  APP:21 - Пользователь ввел2.00.00.0
+INFO  2021-04-11 22:57:30  APP:34 - Вывод результатов
+WARN  2021-04-11 22:58:44  APP:17 - false
+INFO  2021-04-11 22:58:49  APP:23 - Пользователь ввел: 2.0 3.0 5.0
+INFO  2021-04-11 22:58:49  APP:34 - Вывод результатов
+WARN  2021-04-11 23:00:33  APP:17 - false
+INFO  2021-04-11 23:00:37  APP:23 - Пользователь ввел: 2.0 3.0 4.0
+INFO  2021-04-11 23:00:37  APP:34 - b < a & b > c - false
+INFO  2021-04-11 23:00:37  APP:36 - Вывод результатов
+WARN  2021-04-11 23:14:54  APP:17 - false
+INFO  2021-04-11 23:15:01  APP:23 - Пользователь ввел: 2.0 1.0 5.0
+INFO  2021-04-11 23:15:01  APP:34 - b < a & b > c - false
+DEBUG 2021-04-11 23:15:29  APP:51 - Введено: 3
+INFO  2021-04-11 23:15:29  APP:69 - case 3
+INFO  2021-04-11 23:15:29  APP:104 - Цикл for - Утверждение верно!
+INFO  2021-04-11 23:15:29  APP:118 - Цикл while - Утверждение верно!
+INFO  2021-04-11 23:16:04  APP:130 - Заполнение массива с файла
+INFO  2021-04-12 08:53:25  APP:144 - Заполнение массива рандомно
+ERROR 2021-04-12 08:53:28  APP:155 - java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+INFO  2021-04-12 08:54:32  APP:144 - Заполнение массива рандомно
+INFO  2021-04-12 08:54:57  APP:144 - Заполнение массива рандомно
+INFO  2021-04-12 08:55:19  APP:144 - Заполнение массива рандомно
+INFO  2021-04-12 08:56:27  APP:144 - Заполнение массива рандомно
+INFO  2021-04-12 08:57:01  APP:144 - Заполнение массива рандомно
+ERROR 2021-04-12 08:57:05  APP:154 - java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+INFO  2021-04-12 10:32:47  APP:144 - Заполнение массива рандомно
+ERROR 2021-04-12 10:32:49  APP:154 - java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+INFO  2021-04-12 10:41:15  APP:144 - Заполнение массива рандомно
+ERROR 2021-04-12 10:41:20  APP:154 - java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+INFO  2021-04-12 10:41:55  APP:144 - Заполнение массива рандомно
+ERROR 2021-04-12 10:41:56  APP:154 - java.util.InputMismatchException
+INFO  2021-04-12 10:42:18  APP:144 - Заполнение массива рандомно
+ERROR 2021-04-12 10:42:23  APP:154 - java.util.InputMismatchException
+ERROR 2021-04-12 10:55:00  APP:162 - Error: java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at ru.bstu.it32.manukov.lab1.Main.task_4(Main.java:129)
+	at ru.bstu.it32.manukov.lab1.Main.main(Main.java:186)
+
+WARN  2021-04-12 11:10:52 ru.bstu.it32.manukov.lab1.Main APP:18 - false
+WARN  2021-04-12 11:11:37 task_1 APP:18 - false
+ERROR 2021-04-12 11:11:42 task_1 APP:40 - java.util.InputMismatchException
+DEBUG 2021-04-12 11:11:48 task_2 APP:53 - Введено: 5
+INFO  2021-04-12 11:11:48 task_2 APP:79 - case 5
+INFO  2021-04-12 11:11:48 task_3 APP:106 - Цикл for - Утверждение верно!
+INFO  2021-04-12 11:11:48 task_3 APP:120 - Цикл while - Утверждение верно!
+INFO  2021-04-12 11:11:52 task_4 APP:145 - Заполнение массива рандомно
+ERROR 2021-04-12 11:11:53 task_4 APP:155 - java.util.InputMismatchException
+WARN  2021-04-12 11:11:58 task_1 APP:18 - false
+INFO  2021-04-12 11:12:10 task_1 APP:24 - Пользователь ввел: 5.0 4.0 3.0
+WARN  2021-04-12 11:12:10 task_1 APP:25 - 5.0 4.0 3.0
+INFO  2021-04-12 11:12:10 task_1 APP:31 - b < a & b > c - true
+ERROR 2021-04-12 11:12:14 task_2 APP:56 - java.util.InputMismatchException
+DEBUG 2021-04-12 11:12:18 task_2 APP:53 - Введено: 4
+INFO  2021-04-12 11:12:18 task_2 APP:75 - case 4
+INFO  2021-04-12 11:12:18 task_3 APP:106 - Цикл for - Утверждение верно!
+INFO  2021-04-12 11:12:18 task_3 APP:120 - Цикл while - Утверждение верно!
+ERROR 2021-04-12 11:12:21 task_4 APP:162 - Error: java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at ru.bstu.it32.manukov.lab1.Main.task_4(Main.java:129)
+	at ru.bstu.it32.manukov.lab1.Main.main(Main.java:186)
+

@@ -1,0 +1,11 @@
+WARN 2021-04-18 16:14:54,289 (r.b.i.m.l.Main) - false
+WARN 2021-04-18 16:15:00,980 (r.b.i.m.l.Main) - 5.0 6.0 4.0
+ERROR 2021-04-18 16:15:15,388 (r.b.i.m.l.Main) - java.util.InputMismatchException
+ERROR 2021-04-18 16:15:38,382 (r.b.i.m.l.Main) - Error
+java.util.InputMismatchException: null
+	at java.util.Scanner.throwFor(Scanner.java:939) ~[?:?]
+	at java.util.Scanner.next(Scanner.java:1594) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2258) ~[?:?]
+	at java.util.Scanner.nextInt(Scanner.java:2212) ~[?:?]
+	at ru.bstu.it32.manukov.lab1.Main.task_4(Main.java:132) [Lab_1/:?]
+	at ru.bstu.it32.manukov.lab1.Main.main(Main.java:187) [Lab_1/:?]

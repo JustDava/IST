@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44f3b0e6-28be-4a32-997b-5a02ca849eb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab_1(Def)/.idea/libraries/log4j_api_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_api_2_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1(Def)/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1(Def)/.idea/libraries/lib1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1(Def)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1(Def)/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1(Def)/Lab_1(Def).iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1(Def)/Lab_1(Def).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1(Def)/out/production/Lab_1(Def)/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1(Def)/out/production/Lab_1(Def)/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab_1(Def)/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab_1(Def)/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/logExcptns.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/logFull.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_1/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab_1/ru/bstu/it32/manukov/lab1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab_1/ru/bstu/it32/manukov/lab1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bstu/it32/manukov/lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/bstu/it32/manukov/lab1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Лабораторная работа № 1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Лабораторная работа № 1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Лабораторная работа № 2.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Лабораторная работа № 2.pdf" beforeDir="false" />
-    </list>
+    <list default="true" id="44f3b0e6-28be-4a32-997b-5a02ca849eb8" name="Default Changelist" comment="final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +9,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1rAqZ08t2MlnYtZMBxYW2wBFwWq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -144,7 +118,23 @@
       <workItem from="1618743689803" duration="3321000" />
       <workItem from="1618747545389" duration="2948000" />
       <workItem from="1618752167925" duration="913000" />
+      <workItem from="1618753967177" duration="213000" />
     </task>
+    <task id="LOCAL-00001" summary="final">
+      <created>1618753992763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618753992763</updated>
+    </task>
+    <task id="LOCAL-00002" summary="final">
+      <created>1618754074035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618754074035</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,5 +151,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
 </project>

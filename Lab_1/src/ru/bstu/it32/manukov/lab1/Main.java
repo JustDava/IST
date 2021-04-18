@@ -1,14 +1,17 @@
 package ru.bstu.it32.manukov.lab1;
 
-import jdk.jfr.StackTrace;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Scanner;
 
 public class Main {
 
-    public static Logger log = Logger.getLogger("APP");
+    public static Logger log = LogManager.getLogger();
 
     public static void task_1() {
         System.out.println("Задание №1\n");
@@ -50,43 +53,43 @@ public class Main {
             System.out.println("Введите день недели(целое число от 1 до 7):");
             try {
                 wDay = scanner.nextInt();
-                log.debug("Введено: " + wDay);
+                log.info("Введено: " + wDay);
             }
             catch (Exception e) {
                 log.error(e);
             }
         }
         while (wDay > 7 || wDay < 1);
-            switch (wDay) {
-                case 1:
-                    System.out.println("Понедельник - 4 пары");
-                    log.info("case 1");
-                    break;
-                case 2:
-                    System.out.println("Вторник - 4 пары");
-                    log.info("case 2");
-                    break;
-                case 3:
-                    System.out.println("Среда - 3 пары");
-                    log.info("case 3");
-                    break;
-                case 4:
-                    System.out.println("Четверг - выходной");
-                    log.info("case 4");
-                    break;
-                case 5:
-                    System.out.println("Пятница - выходной");
-                    log.info("case 5");
-                    break;
-                case 6:
-                    System.out.println("Суббота - выходной");
-                    log.info("case 6");
-                    break;
-                case 7:
-                    System.out.println("Воскресенье - выходной");
-                    log.info("case 7");
-                    break;
-            }
+        switch (wDay) {
+            case 1:
+                System.out.println("Понедельник - 4 пары");
+                log.info("case 1");
+                break;
+            case 2:
+                System.out.println("Вторник - 4 пары");
+                log.info("case 2");
+                break;
+            case 3:
+                System.out.println("Среда - 3 пары");
+                log.info("case 3");
+                break;
+            case 4:
+                System.out.println("Четверг - выходной");
+                log.info("case 4");
+                break;
+            case 5:
+                System.out.println("Пятница - выходной");
+                log.info("case 5");
+                break;
+            case 6:
+                System.out.println("Суббота - выходной");
+                log.info("case 6");
+                break;
+            case 7:
+                System.out.println("Воскресенье - выходной");
+                log.info("case 7");
+                break;
+        }
     }
     public static void task_3()
     {
@@ -157,9 +160,7 @@ public class Main {
             }
         }
         catch (Exception e) {
-            StringWriter stack = new StringWriter();
-            e.printStackTrace(new PrintWriter(stack));
-            log.error("Error: " + stack);
+            log.error("Error", e);
         }
         if (array != null) {
             for (int i = 0; i < array.length; i++) {
